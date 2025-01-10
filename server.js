@@ -1,5 +1,7 @@
+import 'dotenv/config' // Import dotenv
 import http from 'http'; // Modern ESM imports
 import fs from 'fs'; // Older way is to write => const fs = require("fs")
+
 
 const getHTML = (filepath, res) => {
   // Reading filepath from server
